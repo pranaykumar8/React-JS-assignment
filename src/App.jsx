@@ -36,14 +36,14 @@
 
 import React from "react";
 import BuyTokens from "./components/BuyTokens";
-//import ReadTokens from "./components/BuyTokens";
+//import RedeemTokens from "./components/RedeemTokens";
 
 function App() {
   return (
     <div>
       
       <BuyTokens />
-      // <ReadTokens />
+      {/* <RedeemTokens /> */}
     </div>
   );
 }
