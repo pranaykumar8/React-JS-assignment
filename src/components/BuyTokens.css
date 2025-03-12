@@ -1,0 +1,182 @@
+
+.buy-tokens-container {
+  min-height: 400vh;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  padding: 34px;
+}
+
+.buy-tokens-wrapper {
+  max-width: 990px;
+  width: 200%;
+}
+
+.buy-tokens-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 34px;
+  text-align: flex;
+}
+
+.buy-tokens-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+
+.token-selection {
+  background-color: white;
+  padding: 34px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.token-packages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 20spx;
+}
+
+.token-button {
+  border: 1px solid #d1d5db;
+  padding: 16px;
+  border-radius: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10s0px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.token-button.selected {
+  border-color: black;
+  background-color: #f3f4f6;
+}
+
+.best-value-badge {
+  margin-top: 8px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.custom-amount-container {
+  margin-top: 24px;
+}
+
+.custom-amount-input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.input-price-label {
+  position: absolute;
+  right: 24px;
+  color: gray;
+  font-size: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.payment-methods {
+  margin-top: 4px;
+}
+
+.payment-button {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 8px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.payment-button:hover {
+  background-color: #f3f4f6;
+}
+
+
+.order-summary {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order-details {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+.total-amount {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.proceed-button {
+  background-color: black;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.cancel-button {
+  border: 1px solid #d1d5db;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.faq-container {
+  margin-top: 40px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.faq-box {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.faq-text {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 4px;
+}
