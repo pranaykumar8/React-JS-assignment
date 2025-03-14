@@ -36,12 +36,14 @@
 
 import React from "react";
 import BuyTokensAndFAQ from "./components/BuyTokens";
+import RedeemTokens from "./components/RedeemTokens";
 
 function App() {
   return (
     <div>
       
       <BuyTokensAndFAQ />
+      <RedeemTokens/>
     </div>
   );
 }
