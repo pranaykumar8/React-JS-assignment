@@ -35,17 +35,14 @@
 // export default App
 
 import React from "react";
-import BuyTokens from "./components/BuyTokens";
-//import RedeemTokens from "./components/RedeemTokens";
+import BuyTokensAndFAQ from "./components/BuyTokens";
 
 function App() {
   return (
     <div>
       
-      <BuyTokens />
-      {/* <RedeemTokens /> */}
+      <BuyTokensAndFAQ />
     </div>
   );
 }
-
 export default App;

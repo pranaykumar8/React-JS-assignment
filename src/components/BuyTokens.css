@@ -1,6 +1,6 @@
 
 .buy-tokens-container {
-  min-height: 400vh;
+  min-height: 100vh;
   background-color: #f3f4f6;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@
 
 .buy-tokens-wrapper {
   max-width: 990px;
-  width: 200%;
+  width: 100%;
 }
 
 .buy-tokens-title {
@@ -179,4 +179,28 @@
   font-size: 14px;
   color: #6b7280;
   margin-top: 4px;
+}
+
+.buy-tokens-container {
+  margin-bottom: 10px; 
+}
+
+
+.payment-faq-container {
+  margin-top: 10px; 
+}
+
+.section {
+  margin-bottom: 10px !important;
+}
+
+
+.faq-container {
+  display: flex;
+  gap: 10px;
+}
+
+
+.paymentBox {
+  margin-bottom: 5px; 
 }
